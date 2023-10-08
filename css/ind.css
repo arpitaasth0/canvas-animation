@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/assets/balloon.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.intro {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    padding : 50px;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 36px;
+    color: red;
+    margin-bottom: -5px;
+}
+
+p {
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: darkgrey;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: red;
+}

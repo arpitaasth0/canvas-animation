@@ -1,0 +1,14 @@
+body {
+    margin:0;
+    background-image: url(/assets/sky.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+#canva {
+    display: block;
+    margin: 0 auto;
+    background-color: skyblue;
+}
+
+
