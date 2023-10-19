@@ -11,10 +11,6 @@ body {
 
 .intro {
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: whitesmoke;
     padding : 50px;
     border-radius: 10px;
@@ -42,7 +38,7 @@ button {
     color: white;
     border: none;
     border-radius: 10px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ;
 }
 
 button:hover {
